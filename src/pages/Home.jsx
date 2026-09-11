@@ -269,9 +269,7 @@ function Home() {
               >
                 {activeAudience.buttonText}
 
-                <span>
-                  ↗
-                </span>
+                
               </a>
             </div>
 
@@ -331,7 +329,7 @@ function Home() {
                   </div>
 
                   <span className="service-arrow">
-                    ↗
+                    
                   </span>
                 </div>
 
@@ -365,7 +363,7 @@ function Home() {
                   </div>
 
                   <span className="service-arrow">
-                    ↗
+                    
                   </span>
                 </div>
 
@@ -401,7 +399,7 @@ function Home() {
                   </div>
 
                   <span className="service-arrow">
-                    ↗
+                    
                   </span>
                 </div>
 
@@ -532,7 +530,7 @@ function Home() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  (85) 9142-3818
+                  (85) 99142-3818
                 </a>
               </div>
 
@@ -558,7 +556,7 @@ function Home() {
               className="contact-button"
             >
               Agende sua sessão
-              <span>↗</span>
+              
             </a>
           </div>
 
@@ -599,9 +597,7 @@ function Home() {
           >
             Falar com a Expandir
 
-            <span>
-              ↗
-            </span>
+          
           </a>
         </div>
       </section>

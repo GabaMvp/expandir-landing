@@ -88,7 +88,8 @@ main {
 
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  text-align: center;
 
   gap: 30px;
 
@@ -737,7 +738,9 @@ main {
 
   align-items: center;
 
-  justify-content: space-between;
+  justify-content: center;
+
+  text-align: center;
 
   background: #684927;
 
@@ -1294,31 +1297,22 @@ main {
 
 .contact-button {
   width: 100%;
-
   max-width: 300px;
-
   min-height: 50px;
-
   margin-top: 22px;
-
   padding: 0 20px;
 
   display: flex;
-
   align-items: center;
-
-  justify-content: space-between;
+  justify-content: center;
 
   border-radius: 7px;
-
   background: #684927;
-
   color: #ffffff;
 
   font-size: 11px;
-
   font-weight: 600;
-
+  text-align: center;
   text-decoration: none;
 
   box-shadow: 0 8px 20px rgba(104, 73, 39, 0.12);
@@ -1328,7 +1322,6 @@ main {
     background 0.25s ease,
     box-shadow 0.25s ease;
 }
-
 .contact-button:hover {
   transform: translateY(-2px);
 
@@ -1464,7 +1457,9 @@ main {
 
   align-items: center;
 
-  justify-content: space-between;
+  justify-content: center;
+
+  text-align: center;
 
   border-radius: 7px;
 
@@ -1620,8 +1615,8 @@ main {
 
   align-items: center;
 
-  justify-content: space-between;
-
+  justify-content: center;
+  text-align: center;
   gap: 30px;
 
   border-top: 1px solid rgba(245, 237, 214, 0.14);
@@ -1643,9 +1638,7 @@ main {
   color: #ffffff;
 }
 
-/* ========================================
-   NOTEBOOK / TABLET
-======================================== */
+
 
 @media (max-width: 1100px) {
   .top-logo-link {
@@ -2199,6 +2192,10 @@ main {
   }
 
   .contact-button {
+  
+    justify-content: center;
+    text-align: center;
+    
     max-width: 100%;
 
     margin-top: 20px;
@@ -2230,6 +2227,8 @@ main {
   }
 
   .final-cta-button {
+    justify-content: center;
+    text-align: center;
     max-width: 100%;
   }
 
