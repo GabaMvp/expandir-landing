@@ -108,10 +108,7 @@ function Home() {
           </a>
         </div>
       </header>
-
-      {/* ========================================
-          HERO
-      ======================================== */}
+      
 
       <section
         id="inicio"
@@ -578,10 +575,7 @@ function Home() {
         </div>
       </section>
 
-      {/* ========================================
-          CTA FINAL
-      ======================================== */}
-
+     
       <section className="final-cta">
         <div className="final-cta-container">
           <span className="final-cta-eyebrow">
