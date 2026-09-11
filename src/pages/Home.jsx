@@ -145,9 +145,7 @@ function Home() {
               >
                 Agende sua sessão
 
-                <span className="button-arrow">
-                  ↗
-                </span>
+              
               </a>
 
               <a
